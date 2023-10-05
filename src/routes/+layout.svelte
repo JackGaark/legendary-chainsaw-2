@@ -29,7 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0px 0px;
+    gap: 16px 0px;
     height: 96px;
     position: relative;
     background-color: #BDE3FF;
