@@ -1,0 +1,36 @@
+:root {
+	--color-primary: #ededed;
+	--color-text-on-primary: #000000;
+
+	--font-family: 'Inter', sans-serif;
+}
+body {
+	background-color: var(--color-primary);
+	color: var(--color-text-on-primary);
+	font-family: var(--font-family);
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+p,
+a {
+	font-size: 1.8rem;
+}
+a {
+	color: inherit;
+	text-decoration: inherit;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.header-cta,
+.arrow {
+	display: none;
+}
