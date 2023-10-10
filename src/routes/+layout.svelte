@@ -20,6 +20,31 @@
       <img src={shoppingCart} alt="Shopping cart">
 </div>
 
+  <section class="features">
+        <div class="wrapper">
+            <ul>
+                <li>
+                    <strong>
+                        <span>Secure</span>
+                    </strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum eget suspendisse metus lacus vel massa suspendisse aliquam nisi.</p>
+                </li>
+                <li>
+                    <strong>
+                        <span>Fast</span>
+                    </strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum eget suspendisse metus lacus vel massa suspendisse aliquam nisi.</p>
+                </li>
+                <li>
+                    <strong>
+                        <span>Reliable</span>
+                    </strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum eget suspendisse metus lacus vel massa suspendisse aliquam nisi.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
 <main>
     <slot />
 </main>
@@ -34,10 +59,6 @@
     position: relative;
     background-color: #BDE3FF;
 }
-/* .header__link {
-  font-size: 40px;
-  font-weight: bold;
-} */
 .nav {
   width: 1120px;
   display: inline-block;
@@ -57,6 +78,27 @@
   margin-inline-end: 36px;
   font-size: 20px;
 }
+
+
+.features {
+  display: flex;
+  width: auto;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.features .wrapper {
+    transform: skewY(-12deg); /* UN-SKEW */
+}
+.features .wrapper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 5em 0 10em;
+}
+
 
 </style>
 
