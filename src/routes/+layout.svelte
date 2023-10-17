@@ -22,26 +22,7 @@
 
   <section class="features">
         <div class="wrapper">
-            <ul>
-                <li>
-                    <strong>
-                        <span>Secure</span>
-                    </strong>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum eget suspendisse metus lacus vel massa suspendisse aliquam nisi.</p>
-                </li>
-                <li>
-                    <strong>
-                        <span>Fast</span>
-                    </strong>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum eget suspendisse metus lacus vel massa suspendisse aliquam nisi.</p>
-                </li>
-                <li>
-                    <strong>
-                        <span>Reliable</span>
-                    </strong>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum eget suspendisse metus lacus vel massa suspendisse aliquam nisi.</p>
-                </li>
-            </ul>
+            
         </div>
     </section>
 
@@ -79,6 +60,16 @@
   font-size: 20px;
 }
 
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    padding: 40px 20px;
+    flex-direction: column;
+  }
 
 .features {
   display: flex;
@@ -90,14 +81,19 @@
 }
 
 .features .wrapper {
-    transform: skewY(-12deg); /* UN-SKEW */
+    /* background-color: #BDE3FF; */
+    align-self: stretch;
+    display: flex;
+    min-height: 600px;
+    width: 100%;
+    flex-direction: column;
 }
-.features .wrapper ul {
+/* .features .wrapper ul {
     display: flex;
     flex-direction: column;
     gap: 3em;
     padding: 5em 0 10em;
-}
+} */
 
 
 </style>
